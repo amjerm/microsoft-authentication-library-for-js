@@ -1,8 +1,29 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Thu, 19 Jan 2023 23:50:24 GMT and should not be manually modified.
+This log was last generated on Fri, 03 Feb 2023 01:19:39 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 10.0.0
+
+Fri, 03 Feb 2023 01:19:39 GMT
+
+### Major changes
+
+- proxyUrl is now passed to msal-node's httpClient via it's constructor #5599 (rginsburg@microsoft.com)
+
+### Minor changes
+
+- Track manually completed sub-measurements #5614 (kshabelko@microsoft.com)
+- tokenQueryParameters are now sent to the /token endpoint for all Confidential Client flows #5573 (rginsburg@microsoft.com)
+- Add JS Queue Measurements #5352 (joarroyo@microsoft.com)
+- Truncate integral telemetry fields #5627 (kshabelko@microsoft.com)
+
+### Patches
+
+- Update discardCache in PerformanceClient #5645 (joarroyo@microsoft.com)
+- Optimize credential regular expressions #5621 (kshabelko@microsoft.com)
+- Added missing fields to InteractionRequiredAuthError #5566 (rginsburg@microsoft.com)
 
 ## 9.1.1
 

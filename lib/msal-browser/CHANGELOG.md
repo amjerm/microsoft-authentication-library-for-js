@@ -1,8 +1,25 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Mon, 09 Jan 2023 22:44:57 GMT and should not be manually modified.
+This log was last generated on Fri, 03 Feb 2023 01:19:39 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.33.0
+
+Fri, 03 Feb 2023 01:19:39 GMT
+
+### Minor changes
+
+- Add JS Queue Measurements to acquireTokenSilent #5352 (joarroyo@microsoft.com)
+- proxyUrl is now passed to msal-node's httpClient via it's constructor #5599 (rginsburg@microsoft.com)
+- Bump @azure/msal-common to v10.0.0
+
+### Patches
+
+- Removed tokenQueryParameters from Public Client flows because they don't use the /token endpoint. #5573 (rginsburg@microsoft.com)
+- Export browser telemetry classes #5641 (kshabelko@microsoft.com)
+- Adding page visibility change event for silent calls like AcquireTokenSilent #5555 (kshabelko@microsoft.com)
+- Revert typo changes #5582 (joarroyo@microsoft.com)
 
 ## 2.32.2
 

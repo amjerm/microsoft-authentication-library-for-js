@@ -1,8 +1,17 @@
 # Change Log - @azure/msal-angular
 
-This log was last generated on Mon, 09 Jan 2023 22:44:57 GMT and should not be manually modified.
+This log was last generated on Fri, 03 Feb 2023 01:19:39 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.5.3
+
+Fri, 03 Feb 2023 01:19:39 GMT
+
+### Patches
+
+- Update ProtectedResourceScopes type to allow unprotected resource for concrete request type (#5563) (milos.buda@hotmail.com)
+- Bump @azure/msal-browser to v2.33.0
 
 ## 2.5.2
 
